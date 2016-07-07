@@ -1,6 +1,6 @@
 #EasyDateTime
 
-EasyDateTime is a Jalali/Shamsi and Gregorian class based on jDateTimePlus that aims to simplify common DateTime tasks by abstracting the complex layers. It's the **simplest** solution for Jalali/Shamsi calendar issues in PHP.
+EasyDateTime is a Jalali/Shamsi and Gregorian class based on <a target="_blank" href="https://github.com/VSG24/jDateTimePlus/">jDateTimePlus</a> that aims to simplify common DateTime tasks by abstracting the complex layers. It's probably the **simplest** solution for Jalali/Shamsi calendar issues in PHP.
 
 #About this class
 
@@ -9,7 +9,7 @@ EasyDateTime is directly based on `jDateTimePlus` 1.0.0 which is itself based on
 #Requirements
 
 * **PHP >= 5.4**.
-* Being based on jDateTimePlus, this package has a dependency on jDateTimePlus 1.0.0+
+* Being based on <a href="https://github.com/VSG24/jDateTimePlus/">jDateTimePlus</a>, this package has a dependency on jDateTimePlus 1.0.0+
 
 #Installation
 
