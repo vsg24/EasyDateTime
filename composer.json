@@ -1,0 +1,26 @@
+{
+    "name": "vsg24/easydatetime",
+    "type": "library",
+    "description": "Jalali (Shamsi) DateTime class written in PHP, abstraction, easy, little configuration",
+    "keywords": ["date", "datetime", "jalali", "jalalidate", "jdatetime","shamsi","iran","farsi","persian","time"],
+    "homepage": "https://vsg24.github.io/EasyDateTime/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vahid Amiri Motlagh",
+            "email": "vahid.a1996@gmail.com",
+            "homepage": "http://atvsg.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+		"vsg24/jdatetimeplus": ">=1.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "easydatetime.class.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}

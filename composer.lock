@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b0828931a10783bf88fb9e867f060472",
+    "content-hash": "e74ed28816885f561984c2c6d080092c",
+    "packages": [
+        {
+            "name": "vsg24/jdatetimeplus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VSG24/jDateTimePlus.git",
+                "reference": "768ba50efe5e249bfa000690ae6287e70aef3013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VSG24/jDateTimePlus/zipball/768ba50efe5e249bfa000690ae6287e70aef3013",
+                "reference": "768ba50efe5e249bfa000690ae6287e70aef3013",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "jdatetimeplus.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vahid Amiri Motlagh",
+                    "email": "vahid.a1996@gmail.com",
+                    "homepage": "http://atvsg.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Jalali (Shamsi) DateTime class written in PHP, Supports year higher than 2038. Updated in 2016.",
+            "homepage": "https://vsg24.github.io/jDateTimePlus/",
+            "keywords": [
+                "Jalali",
+                "date",
+                "datetime",
+                "farsi",
+                "iran",
+                "jalalidate",
+                "jdatetime",
+                "persian",
+                "shamsi",
+                "time"
+            ],
+            "time": "2016-07-06 18:57:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}

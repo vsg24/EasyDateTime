@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <title>EasyDateTime examples</title>
+        <style>
+            .text-center {
+                text-align: center;
+                color: red;
+            }
+            .text-author {
+                color: dodgerblue;
+                font-weight: bold;
+            }
+            code {
+                background-color: azure;
+            }
+            footer {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    <a href="https://github.com/VSG24/EasyDateTime" target="_blank"><h2 class="text-center text-red">
+            EasyDateTime examples <small>v1.0.0</small></h2></a>
+    <br>
+
+All input dates are expected in the <b>UTC</b> format, the methods will try to convert them into the timezone of 
+the object. If you don't want this behaviour you need to set the timezone property to 'UTC'.<hr><code>$edt = new <b>EasyDateTime</b>('Asia/Tehran', 'jalali');</code><hr><code>$edt-&gt;<b>date</b>();</code><br><b>Gets the current datetime - no need for any parameters!</b><br><br>1395-04-17 06:09:42<hr><code>$edt-&gt;<b>date</b>('d l M');</code><br><br>17 پنجشنبه تیر<hr><code>$edt-&gt;<b>date</b>('Y-m-d H:i:s', 1467851310);</code><br><b>Timestamp is in UTC, but the function 
+converts it to the current EasyDateTime object's timezone.</b><br><br>1395-04-17 04:58:30<hr><code>$edt-&gt;<b>convertNumbers</b>($edt-&gt;date());</code><br><br>۱۳۹۵-۰۴-۱۷ ۰۶:۰۹:۴۲<hr><code>$edt-&gt;<b>timezone</b> = 'America/Los_Angeles';</code><br><b>Changing timezone can be done 
+easily at runtime</b><br><br>1395-04-16 18:39:42<hr><code>$edt-&gt;<b>gregorianStringToJalaliString</b>('2016-07-07 00:45', 'Y-m-d H:i', 'Y-m-d H:i');
+</code><br><b>Converting Gregorian date-times to Jalali, is a trivial task</b><br><br>1395-04-17 00:45<hr><code>$edt-&gt;<b>jalaliStringToGregorianString</b>('1395-04-17 01:14', 'Y-m-d H:i');
+</code><br><b>The opposite (Jalali to Gregorian) is as easy, though more limited (Read the phpdocs for the method)
+</b><br><br>2016-07-07 05:44<hr><code>$edt-&gt;<b>convertTimeZone</b>('2016-07-07 00:00:00', 'America/Los_Angeles', 'Asia/Tehran', 'Y/m/d 
+H:i:s');</code><br><b>Converting between timezones is easy and doesn'n depend on the timezone of the EasyDateTime 
+object</b><br><br>2016/07/07 11:30:00<hr>    <footer>
+        This project is provided AS IS. It's completely free of charge. This project is licensed under <a href="https://opensource%0A%20%20%20%20%20%20%20%20.org/licenses/MIT">MIT</a> license.
+        <br>
+        <a href="https://github.com/vsg24">vsg24 on Github</a> - <a href="http://atvsg.com/" target="_blank" class="text-author">Vahid Amiri
+            Motlagh</a>
+        <br><br>
+    </footer>
+    
+
+</body></html>
